@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import workouts from '../data/workout';
-import Setinput from '../components/Setinput';
+import Setinput from './setinput';
 
 export default function Home() {
   const [category, setCategory] = useState('chest');

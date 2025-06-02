@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Setinput({ index, set, updateSet }) {
+export default function setinput({ index, set, updateSet }) {
   return (
     <div className="flex items-center justify-between bg-gray-800 p-3 rounded-lg shadow-md w-full max-w-sm mx-auto">
       <span className="text-black font-semibold">Set{index + 1} : </span>
