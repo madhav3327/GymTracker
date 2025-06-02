@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Login from "./components/Login";
-import Signup from "./components/Signup";
+
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from './components/Footer'
@@ -40,7 +40,7 @@ function App() {
 
       <div className="w-full max-w-md bg-gray-900 p-4 rounded shadow">
         {!skipLogin && islogin && <Login />}
-        {!skipLogin && issignup && <Signup />}
+        
         {skipLogin && <Home />}
       </div>
 
